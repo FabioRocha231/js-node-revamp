@@ -1,0 +1,19 @@
+{
+  "name": "js-node-revamp",
+  "version": "1.0.0",
+  "description": "A javascript and nodeJS revamp",
+  "main": "./basics/async-await.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabioRocha231/js-node-revamp.git"
+  },
+  "author": "FabioRocha231",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FabioRocha231/js-node-revamp/issues"
+  },
+  "homepage": "https://github.com/FabioRocha231/js-node-revamp#readme"
+}
