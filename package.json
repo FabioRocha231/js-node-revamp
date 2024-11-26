@@ -1,6 +1,7 @@
 {
   "name": "js-node-revamp",
   "version": "1.0.0",
+  "type": "module",
   "description": "A javascript and nodeJS revamp",
   "main": "./basics/async-await.js",
   "scripts": {
