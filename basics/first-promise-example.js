@@ -1,5 +1,5 @@
 const promiseCallback = (resolve, reject) => {
-  const error = false;
+  const error = true;
   let data = {
     data: {
       firstName: 'Fabio',
@@ -15,9 +15,17 @@ const promiseCallback = (resolve, reject) => {
     error: 'Not Found',
   };
 
-  reject(data.error);
+  reject(data);
 };
 
 function promiseFunction() {
-  return new Promise();
+  return new Promise(promiseCallback);
 }
+const successHandler = (data) => {
+  console.log(data);
+};
+const errorHandler = (error) => {
+  console.log(error.error);
+  console.log(error.status);
+};
+promiseFunction().then(successHandler).catch(errorHandler);
