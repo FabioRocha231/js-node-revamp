@@ -9,12 +9,10 @@ const promiseCallback = (resolve, reject) => {
     error: null,
   };
   if (!error) resolve(data);
-
   data = {
     status: 400,
     error: 'Not Found',
   };
-
   reject(data);
 };
 
