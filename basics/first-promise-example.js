@@ -21,9 +21,11 @@ const promiseCallback = (resolve, reject) => {
 function promiseFunction() {
   return new Promise(promiseCallback);
 }
+
 const successHandler = (data) => {
   console.log(data);
 };
+
 const errorHandler = (error) => {
   console.log(error.error);
   console.log(error.status);
