@@ -5,7 +5,10 @@
   "description": "A javascript and nodeJS revamp",
   "main": "./basics/async-await.js",
   "scripts": {
-    "test": "none"
+    "start": "node ./basics/async-await.js",
+    "test": "none",
+    "build": "tsc",
+    "lint": "eslint . --ext .ts"
   },
   "repository": {
     "type": "git",
