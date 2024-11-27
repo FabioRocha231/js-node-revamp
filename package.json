@@ -5,8 +5,8 @@
   "description": "A javascript and nodeJS revamp",
   "main": "./basics/async-await.js",
   "scripts": {
-    "start": "node ./basics/async-await.js",
-    "test": "none",
+    "start": "node ./package-management/index.js",
+    "test": "jest",
     "build": "tsc",
     "lint": "eslint . --ext .ts"
   },
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/FabioRocha231/js-node-revamp/issues"
   },
-  "homepage": "https://github.com/FabioRocha231/js-node-revamp#readme"
+  "homepage": "https://github.com/FabioRocha231/js-node-revamp#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
